@@ -1,0 +1,33 @@
+Escreva um programa JavaScript para remover um caractere na posição especificada de uma determinada 
+string e retornar a nova string
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web page</title>
+
+        <script>
+        
+        function modifyStringFunctionA(string, pos){         
+            
+            var newString = "";
+
+            var arrayString = String(string).split("");
+
+            for(var i = 0; i < String(string).length; i ++) {
+
+                if(i == (pos - 1))
+                    continue;
+
+                console.log(arrayString[i]);
+            }
+
+        }
+
+        </script>
+        
+    </head>
+    <body>
+        
+    </body>
+</html>
